@@ -22,11 +22,12 @@
   
   \documentclass{resume} % Use the custom resume.cls style
 \usepackage{enumitem}
+\newcommand\mybar{\kern1pt\rule[-\dp\strutbox]{.8pt}{\baselineskip}\kern1pt}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
   \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
     \name{James Hill} 
-    \address{(808)309-4559 \\ james.elden.hill@gmail.com} % Your phone number and email
+    \address{(808)391-4559 \mybar \space \space   james.elden.hill@gmail.com} % Your phone number and email
     
     \begin{document}
     
@@ -34,33 +35,35 @@
       %    Experience
     %-----------------------------------------------------------------------------------------------
       \begin{rSection}{EXPERIENCE}
-    {\bf Data Scientist, doTERRA Inc.} \hfill {\textit{January 2019 - Present}}
+    {\bf Data Scientist, doTERRA Inc.} \hfill {January 2019 - Present}
     \begin{itemize}[noitemsep]
-      \item[$\cdot$] Create statistical models to forecast sales of doTERRA products across 15 markets
-      \item[$\cdot$] Develop and maintain an R Shiny application that visualizes  statistical models, tracks forecast \break accuracy, and compares accuracy to former system
-      \item[$\cdot$] Cooperate with operation analysts to ensure forecast and the underlying data are correct and ensure the final product meets all requirements
-      \item[$\cdot$] Manage data from different sources, clean and prepare data for analysis, and remove anomalies 
+      
+      \item[$\cdot$] Develop internal software packages that manage customer data, facilitate data mining, and expedite decision-making process
+      \item[$\cdot$] Collaborate with other departments to gather requirements and create data solutions that solve business problems
+      \item[$\cdot$] Create statistical models to accurately forecast sales across 18 markets by removing historical promotions to reduce inventory and increase cash on hands
+      \item[$\cdot$] Manage and create ETL processes that support analysts reporting and decreased run time by 1000\%
     \end{itemize}
-    {\bf Data Governance Business Analyst, Swire Coca-Cola} \hfill {\textit{April 2018 - January 2019}}
+    {\bf Data Governance Business Analyst, Swire Coca-Cola} \hfill {April 2018 - January 2019}
     \begin{itemize}[noitemsep]
+      \item[$\cdot$] Managed data integrity across different data sources and worked with department heads to create a transparent   and trustworthy data driven culture
+      \item[$\cdot$] Created tools with R and Excel that found the root of data issues and decreased the time to fix data issues by 80\%
       \item[$\cdot$] Wrote SQL scripts to create back end data sources for analysts to generate reports
-      \item[$\cdot$] Managed data integrity across several data sources and platforms
-      \item[$\cdot$] Analyzed data with R and Excel to ﬁnd the root of data discrepancies
       \item[$\cdot$] Designed and created data visualization dashboards using Power BI
     \end{itemize}
-    {\bf Business Insights Analyst, Swire Coca-Cola.} \hfill {\textit{May 2017 - April 2018} }
+    {\bf Business Insights Analyst, Swire Coca-Cola.} \hfill {May 2017 - April 2018}
     \begin{itemize}[noitemsep]
+      \item[$\cdot$] Managed customer-funding contracts and saved the company over \$2 million in over accruals
       \item[$\cdot$] Created data visualization dashboards in Power BI to expedite decision-making
       \item[$\cdot$] Analyzed data and automated daily reporting tasks with R, Python, and Excel
       \item[$\cdot$] Reported on daily, weekly, and monthly ﬁnancial information to management
     \end{itemize}
-    {\bf Research Assistant, BYU} \hfill {\textit{December 2014 - May 2017}}
+    {\bf Research Assistant, BYU} \hfill {December 2014 - May 2017}
         \begin{itemize}[noitemsep]
       \item[$\cdot$] Developed a logistic regression model to find the best area and person to serve to in men's collegiate Volleyball
       \item[$\cdot$] Created reports for and presented to BYU Women's Volleyball and BYU Women's Soccer 
       \item[$\cdot$] Managed data input into the SQL server
     \end{itemize}
-    {\bf Data Analyst Intern, Volleymetrics} \hfill {\textit{April 2016 - August 2016}}
+    {\bf Data Analyst Intern, Volleymetrics} \hfill {April 2016 - August 2016}
     \begin{itemize}[noitemsep]
     \item[$\cdot$] Worked on a team to create predictive and descriptive statistical models
     \item[$\cdot$] Generated data visualization tables and graphs using R and R Shiny
